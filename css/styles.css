@@ -1,0 +1,25 @@
+.heading {
+  background-color: lightblue;
+  font-size: 25px;
+  text-align: center;
+  margin: 30px 30px;
+  padding: 60px;
+  width: 100%
+  font-weight: bolder;
+}
+
+.container {
+  background: lightgrey;
+  float: right;
+  width: 65%;
+  padding: 10px;
+
+}
+.sidebar {
+  float: left;
+  background-color: #bf80ff;
+  font-size: 15px;
+  border: solid;
+  border-color: black;
+  padding: 10px;
+}

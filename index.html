@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Ping Pong!</title>
+  </head>
+
+  <body>
+  <div class="heading">
+      <h1>Let's Play Ping Pong!</h1>
+  </div>
+  <div class="sidebar">
+    <h2>About Ping Pong</h2>
+    <h3>A page by:</h3>
+    <p>Hillary Hintzen</p>
+    <h3>Github Link:</h3>
+    <p><a href="https://github.com/hhillaryy" target="_blank">hhillaryy</a></p>
+    <h3>Epidocus Project For</h3>
+    <p>Week 3 for entry into Level Two CSS course</p>
+  </div>
+
+  <div class="container">
+    <h2>Enter the lengths of your sides below to find out what type of triangle it is!</h1>
+      <h3>Rules:</h3>
+      <p>Ping Pong will count up to your number from 1 with the following exceptions:</p>
+        <ol class ="rules">
+          <li>Any number divisible by 3 becomes "ping"</li>
+          <li>Any number divisible by 5 becomes "pong"</li>
+          <li>Any number divisible by 15 (or both 3 and 5) becomes "pingpong"</li>
+        </ol>
+
+
+    <form id="game">
+      <div class="form-group">
+        <label for="input">Enter a number to play:</label>
+        <input id="input" class="form-control" type="text">
+      </div>
+
+      <button type="submit" class="btn" id="pingpong">Play Ping Pong!</button>
+    </form>
+
+    <div id="result">
+      <ul id="output">
+      </ul>
+    </div>
+  </div>
+  </body>
+</html>
