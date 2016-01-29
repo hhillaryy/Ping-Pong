@@ -14,19 +14,22 @@ var userNumber = function(input) {
     return pingArray;
 };
 
+
 $(document).ready(function() {
   $("button#game").submit(function(event) {
     event.preventDefault();
     var input = parseInt($("#input").val());
     var result = userNumber(input);
-      result.forEach.(function(number){
+      result.forEach.(function{number){
       ("#output").append(<"li"> + number + <"/li">)
-    });
-      $("#result").show();
+    )};
+    $("#result").show();
   });
 });
 
-// var numberList = document.getElementbyId("#output")
+  // var numberList = document.getElementbyId("#output")
+
+
 
     // for (index = 0, index < result.length, index++) {
 
