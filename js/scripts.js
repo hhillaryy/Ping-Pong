@@ -11,9 +11,7 @@ var userNumber = function(input) {
       pingArray.push(i);
     }
     };
-
     return pingArray;
-
 };
 
 $(document).ready(function() {
@@ -21,15 +19,15 @@ $(document).ready(function() {
     event.preventDefault();
     var input = parseInt($("#input").val());
     var result = userNumber(input);
-    var numberList = document.getElementbyId("output")
-
-    for (index = 0; index < result.length; index++) {
       result.forEach.(function(number){
       ("#output").append(<"li"> + number + <"/li">)
-    })
-    $("#result").show();
-
+    });
+      $("#result").show();
   });
 });
+
+// var numberList = document.getElementbyId("#output")
+
+    // for (index = 0, index < result.length, index++) {
 
     // $("ul#output").append("<li><span class='list'>" + result + "</span></li>");

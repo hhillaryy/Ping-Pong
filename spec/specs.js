@@ -14,7 +14,6 @@ describe("userNumber", function() {
     });
 
   it("replaces multiples of 15 (5 and 3) with pingpong", function () {
-    expect(userNumber(15)).to.eql([1,2,"ping",4,"pong","ping",7,8,"ping","pong", 11, "ping", 13, 14, "ping-pong"])
+    expect(userNumber(15)).to.eql([1,2,"ping",4,"pong","ping",7,8,"ping","pong", 11, "ping", 13, 14, "pingpong"])
     });
-
 });
