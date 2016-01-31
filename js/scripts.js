@@ -16,11 +16,11 @@ var userNumber = function(input) {
 
 
 $(document).ready(function() {
-  $("button#game").submit(function(event) {
+  $("button#pingpong").submit(function(event) {
     event.preventDefault();
     var input = parseInt($("#input").val());
     var result = userNumber(input);
-      result.forEach.(function{number){
+      result.forEach.(function(number) {
       ("#output").append(<"li"> + number + <"/li">)
     )};
     $("#result").show();
