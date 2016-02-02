@@ -16,21 +16,13 @@ var userNumber = function(input) {
 
 
 $(document).ready(function() {
-  $("button#pingpong").submit(function(event) {
+  $("form#game").submit(function(event) {
     event.preventDefault();
     var input = parseInt($("#input").val());
     var result = userNumber(input);
-      result.forEach.(function(number) {
-      ("#output").append(<"li"> + number + <"/li">)
-    )};
+      result.forEach(function(number) {
+    $("#output").append("<li>"> + number + "</li>")
+    });
     $("#result").show();
   });
 });
-
-  // var numberList = document.getElementbyId("#output")
-
-
-
-    // for (index = 0, index < result.length, index++) {
-
-    // $("ul#output").append("<li><span class='list'>" + result + "</span></li>");

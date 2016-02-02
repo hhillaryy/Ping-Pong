@@ -1,4 +1,4 @@
-# Vacation Generator site
+# Ping-Pong Numbers Game
 HTML, CSS, Javascript, and jQuery exercise for Epicodus 1.23.2016
 ### by Hillary Hintzen
 
