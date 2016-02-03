@@ -21,7 +21,7 @@ $(document).ready(function() {
     var input = parseInt($("#input").val());
     var result = userNumber(input);
       result.forEach(function(number) {
-    $("#output").append("<li>"> + number + "</li>")
+    $("#output").append("<li>" + number + "</li>")
     });
     $("#result").show();
   });
